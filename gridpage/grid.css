@@ -1,0 +1,131 @@
+.v1div {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 150px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+    position: absolute;
+}
+
+.v1div1 {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 170px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 160px;
+    /* background-color: green; */
+    position: absolute;
+}
+
+.v2div {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 150px;
+    width: 250px;
+    margin-left: 310px;
+    margin-top: 10px;
+    background-color: black;
+    position: absolute;
+}
+
+.v2div1 {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 170px;
+    width: 250px;
+    margin-left: 310px;
+    margin-top: 160px;
+    /* background-color: green; */
+    position: absolute;
+}
+
+.v3div {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 150px;
+    width: 250px;
+    margin-left: 610px;
+    margin-top: 10px;
+    background-color: black;
+    position: absolute;
+}
+
+.v3div1 {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 170px;
+    width: 250px;
+    margin-left: 610px;
+    margin-top: 160px;
+    /* background-color: gray; */
+    position: absolute;
+}
+
+.bv1div {
+    padding-left: 20px;
+    height: 150px;
+    border: gray 1px solid;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 350px;
+    background-color: black;
+    position: absolute;
+}
+
+.bv1div1 {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 170px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 502px;
+    /* background-color: green; */
+    position: absolute;
+}
+
+.bv2div {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 150px;
+    width: 250px;
+    margin-left: 310px;
+    margin-top: 350px;
+    background-color: black;
+    position: absolute;
+}
+
+.bv2div1 {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 170px;
+    width: 250px;
+    margin-left: 310px;
+    margin-top: 502px;
+    /* background-color: green; */
+    position: absolute;
+}
+
+.bv3div {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 150px;
+    width: 250px;
+    margin-left: 610px;
+    margin-top: 350px;
+    background-color: black;
+    position: absolute;
+}
+
+.bv3div1 {
+    border: gray 1px solid;
+    padding-left: 20px;
+    height: 170px;
+    width: 250px;
+    margin-left: 610px;
+    margin-top: 502px;
+    /* background-color: gray; */
+    position: absolute;
+}

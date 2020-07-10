@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>User Details Form</title>
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="userform.css">
+</head>
+
+<body>
+    <div class="base">
+        <form autocomplete="off" style="margin-top: 15px;">
+            <table style="border-style: solid,width:100%">
+                <tbody>
+                    <tr>
+                        <td align="right"><label><strong>Full Name</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-user icon"></i>
+                                <input class="input-field" id="name" type="text" placeholder="Full Name" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label><strong>Address Line1</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="Address Line1" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label><strong>Address Line2</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="Address Line2" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label><strong>City</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="City" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label><strong>State/Province/Region</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="State/Province/Region" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label><strong>Postal Code/ZIP</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="Postal Code/ZIP" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label><strong>Country</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-book icon"></i>
+                                <select class="input-field" id="state"><option value="" disabled selected>Country</option></select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label><strong>Email</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-home icon"></i>
+                                <input class="input-field" type="email" placeholder="Email" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label><strong>Phone Number</strong></label></td>
+                        <td style="width: 20px;"></td>
+                        <td align="left">
+                            <div class="input-icons">
+                                <i style="background-color: #eeeeee;" class="fa fa-phone icon"></i>
+                                <input class="input-field" type="text" placeholder="Phone Number" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center"><button style="border-radius: 8px; margin-left: 110px;" name="submit" onclick="submitclick()">Submit</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+    </div>
+    <script>
+        function submitclick() {
+            let fname = document.getElementById('name').value;
+            if (fname != '') {
+                alert('Thanks you')
+            }
+        }
+    </script>
+
+</body>
+
+</html>

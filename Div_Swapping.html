@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<p id="div1">I am div1</p>
+<div id="div2">I am div2</div>
+<button onclick="swap()">Submit</button>
+
+<script>
+function swap(){
+	let div1val = document.getElementById("div1").innerHTML;
+	let div2val = document.getElementById("div2").innerHTML;
+
+	document.getElementById("div1").innerHTML = div2val;
+	document.getElementById("div2").innerHTML = div1val;
+}
+</script>
+</body>
+</html>

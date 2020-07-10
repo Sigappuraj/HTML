@@ -1,0 +1,214 @@
+﻿.headimg {
+    border-radius: 100%;
+    border-style: dotted;
+    border-color: #fcbf1e;
+}
+
+.main {
+    text-align: center;
+    background-color: #142850;
+    height: 550px;
+}
+
+.obimg {
+    margin-top: 10px;
+    margin-left: -50px;
+    border-radius: 100%;
+    font-weight: 900;
+}
+
+.lbmain {
+    color: red;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.lbmain1 {
+    color: white;
+    font-size: medium;
+    margin-left: 50px;
+}
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.himage {
+    background-color: #666;
+    padding: 5px;
+    text-align: center;
+}
+
+.htitle {
+    width: 400px;
+    background-color: #fcbf1e;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -25px;
+    border-radius: 5px;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.padtitle {
+    background-color: #666;
+    padding: 12px;
+    text-align: center;
+}
+
+.pad {
+    background-color: #F0F0F0;
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+    color: #888888;
+    font-size: xx-large;
+}
+
+.ptxt {
+    width: 50%;
+    text-align: justify;
+}
+
+li {
+    width: 50%;
+    text-align: justify;
+}
+
+td {
+    font-family: Arial;
+}
+
+.split {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
+
+.left {
+    left: 0;
+    margin-left: 20%;
+}
+
+.right {
+    right: 0;
+    border-left: 2px solid #F0F0F0;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+}
+
+.html {
+    width: 70%;
+    background-color: #FFA500;
+}
+
+.css {
+    width: 70%;
+    background-color: #FFA500;
+}
+
+.js {
+    width: 80%;
+    background-color: #FFA500;
+}
+
+.pm {
+    width: 80%;
+    background-color: #FFA500;
+}
+
+.eg {
+    width: 60%;
+    background-color: #FFA500;
+}
+
+.bd {
+    width: 80%;
+    background-color: #FFA500;
+}
+
+.py {
+    width: 60%;
+    background-color: #FFA500;
+}
+
+.pl {
+    width: 90%;
+    background-color: #FFA500;
+}
+
+.splitpage {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 200px;
+    width: 400px;
+}
+
+.leftside {
+    margin-left: -100px;
+    background-color: orange;
+    height: 210px;
+    width: 300px;
+    margin-top: 20px;
+    position: fixed;
+    text-align: center;
+}
+
+.rightside {
+    margin-left: 190px;
+    background-color: #00b4d8;
+    height: 210px;
+    width: 300px;
+    margin-top: 20px;
+    position: fixed;
+    text-align: center;
+}
+
+.merge {
+    margin-left: 32.5px;
+    background-color: #FF5959ff;
+    height: 160px;
+    width: 595px;
+    margin-top: 50px;
+    position: fixed;
+}
+
+.lhead {
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.lhead1 {
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+.lhead2 {
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.ntxt {
+    color: wheat;
+    font-weight: 900;
+    font-size: small;
+}
+
+.bstyle {
+    margin-left: 25%;
+    margin-right: 25%;
+}

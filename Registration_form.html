@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<body style="align-content: center;">
+
+    <form>
+        <b>UserName:</b><input type="text" id="email" placeholder="email or phone number"><br/>
+        <b>Password:</b><input type="password" id="pwd" placeholder="enter password"><br/><br/>
+        <button onclick="emailValidation()">Submit</button>
+    </form>
+
+    <script>
+        function emailValidation() {
+            let emailid = document.getElementById("email").value;
+            let pwdval = document.getElementById("pwd").value;
+            //email id validation
+            if ((emailid.match(/^[A-Za-z]/)) && (!emailid.match(/@/))) {
+                alert("Failed to Register due to invalid Email id");
+            } else if ((emailid.match(/^[0-9]+$/)) && (emailid.length != 10)) {
+                alert("Failed to Register due to invalid phone number");
+            }
+
+            //password validation
+            if (pwdval.length <= 8) {
+                alert("Failed to Register due to password not meet the strength");
+            } else if (pwdval.match(/[0-9a-zA-Z]$/)) {
+                alert("Failed to Register due to password not meet the strength");
+            }
+        }
+    </script>
+</body>
+
+</html>

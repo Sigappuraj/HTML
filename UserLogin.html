@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>User Login Form</title>
+    <style>
+        .usrfrm {
+            margin-top: 200px;
+            margin-left: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="usrfrm">
+        <form>
+            <b>UserName:</b><input style="border-radius: 8px;" type="text" id="email" placeholder="email or phone number"><br/><br/>
+            <b>Password:</b><input style="border-radius: 8px; margin-left: 8px;" type="password" id="pwd" placeholder="enter password"><br/><br/>
+            <button style="border-radius: 8px; margin-left: 110px;" name="submit" onclick="emailValidation()">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function emailValidation() {
+            let emailid = document.getElementById("email").value;
+            let pwdval = document.getElementById("pwd").value;
+            //email id validation
+            if ((emailid.match(/^[A-Za-z]/)) && (!emailid.match(/@/))) {
+                alert("Failed to Register due to invalid Email id");
+            } else if ((emailid.match(/^[0-9]+$/)) && (emailid.length != 10)) {
+                alert("Failed to Register due to invalid phone number");
+            }
+
+            //password validation
+            if (pwdval.length <= 8) {
+                alert("Failed to Register due to password not meet the strength");
+            } else if (pwdval.match(/[0-9a-zA-Z]$/)) {
+                alert("Failed to Register due to password not meet the strength");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
